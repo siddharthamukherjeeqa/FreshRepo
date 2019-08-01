@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SomeTests">
+	<listeners>
+        <listener class-name="listnerPackage.AnnotationTransformer"/>
+    </listeners>
+    <test name="Smoke Test">
+		<packages>
+			<package name ="pomSetup"/>
+		</packages>
+	</test>
+</suite>
