@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class SearchFlightPage {
@@ -22,13 +23,22 @@ public class SearchFlightPage {
 		driver.get("https://www.expedia.com/");
 		etSearch = new ExpediaTravelSearch(driver);
 	}
-	@Test
-	public void searchFlight() {
+	@Test(dataProvider = "getData")
+	public void searchFlight(String origin, String destination, String sDate, String eDate) {
 		etSearch.clickFlightsTab();
-		etSearch.enterOriginDetails("Hyderabad");
-		etSearch.enterdestinationDetails("New York");
-		etSearch.enterStartDate("01/01/2020");
-		etSearch.enterEndDate("01/01/2020");
+		etSearch.enterOriginDetails(origin);
+		etSearch.enterdestinationDetails(destination);
+		etSearch.enterStartDate(sDate);
+		etSearch.enterEndDate(eDate);
 		etSearch.searchFlight();
+	}
+	@DataProvider
+	public Object[][] getData() {
+		Object [][] data = new Object[1][4];
+		data[0][0] = "Hyderabad";
+		data[0][1] = "New York";
+		data[0][2] = "01/01/2020";
+		data[0][3] = "01/01/2020";
+		return data;
 	}
 }
