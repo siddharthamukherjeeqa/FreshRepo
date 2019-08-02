@@ -1,5 +1,8 @@
 package pomSetup;
 
+import java.time.Duration;
+
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,26 +38,47 @@ public class ExpediaTravelSearch {
 	}
 	
 	public void clickFlightsTab(){
+		reliableFindElement(flightsTab);
 		flightsTab.click();
 	}
 	public void clickHotelTab(){
+		reliableFindElement(hotelTab);
 		hotelTab.click();
 	}
 	
 	public void searchFlight(){
+		reliableFindElement(search);
 		search.click();
 	}
 	
 	public void enterOriginDetails(String value) {
+		reliableFindElement(origin);
 		origin.sendKeys(value);
 	}
 	public void enterdestinationDetails(String value) {
+		reliableFindElement(destination);
 		destination.sendKeys(value);
 	}
 	public void enterStartDate(String value) {
+		reliableFindElement(sDate);
 		sDate.sendKeys(value);
 	}
 	public void enterEndDate(String value) {
+		reliableFindElement(dDate);
 		dDate.sendKeys(value);
+	}
+	private static final int DEFAULT_TIMEOUT_IN_SECONDS = 10;
+
+	public WebElement reliableFindElement(WebElement element) {
+	    long endTime = System.currentTimeMillis() + 
+	    Duration.ofSeconds(DEFAULT_TIMEOUT_IN_SECONDS).toMillis();
+	    while (System.currentTimeMillis() < endTime) {
+	        try {
+	            return element;
+	        } catch (NoSuchElementException ignored) {
+	            System.out.println("Not found, trying again...");
+	        }
+	    }
+	    throw new NoSuchElementException("Could not find " + element);
 	}
 }

@@ -25,16 +25,10 @@ public class SearchFlightPage {
 	@Test
 	public void searchFlight() {
 		etSearch.clickFlightsTab();
-		System.out.println("1");
 		etSearch.enterOriginDetails("Hyderabad");
-		System.out.println("2");
 		etSearch.enterdestinationDetails("New York");
-		System.out.println("3");
 		etSearch.enterStartDate("01/01/2020");
-		System.out.println("4");
 		etSearch.enterEndDate("01/01/2020");
-		System.out.println("5");
 		etSearch.searchFlight();
-		System.out.println("6");
 	}
 }
