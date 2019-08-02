@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sidmukhe.maventest.PracticeDependentTestCase">
+      <class name="pomSetup.SearchFlightPage">
         <methods>
-          <include name="driveSedanCar"/>
-          <include name="driveHondaAccord"/>
-          <include name="driveToyotaCorolla"/>
+          <include name="searchFlight"/>
+          <include name="intialize"/>
         </methods>
-      </class> <!-- com.sidmukhe.maventest.PracticeDependentTestCase -->
+      </class> <!-- pomSetup.SearchFlightPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

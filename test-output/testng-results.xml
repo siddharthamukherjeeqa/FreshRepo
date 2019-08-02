@@ -1,37 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-02T16:49:59Z" name="Default suite" finished-at="2019-08-02T16:49:59Z" duration-ms="89">
+  <suite started-at="2019-08-02T18:55:07Z" name="Default suite" finished-at="2019-08-02T18:56:01Z" duration-ms="54553">
     <groups>
     </groups>
-    <test started-at="2019-08-02T16:49:59Z" name="Default test" finished-at="2019-08-02T16:49:59Z" duration-ms="89">
-      <class name="com.sidmukhe.maventest.PracticeDependentTestCase">
-        <test-method signature="driveScooty()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@17c1bced]" started-at="2019-08-02T16:49:59Z" name="driveScooty" finished-at="2019-08-02T16:49:59Z" duration-ms="14" status="PASS">
+    <test started-at="2019-08-02T18:55:07Z" name="Default test" finished-at="2019-08-02T18:56:01Z" duration-ms="54553">
+      <class name="pomSetup.SearchFlightPage">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:pomSetup.SearchFlightPage@143640d5]" started-at="2019-08-02T18:55:07Z" name="intialize" finished-at="2019-08-02T18:55:51Z" duration-ms="44690" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driveScooty -->
-        <test-method signature="driveSedanCar()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@17c1bced]" started-at="2019-08-02T16:49:59Z" name="driveSedanCar" finished-at="2019-08-02T16:49:59Z" duration-ms="13" status="PASS">
+        </test-method> <!-- intialize -->
+        <test-method signature="searchFlight()[pri:0, instance:pomSetup.SearchFlightPage@143640d5]" started-at="2019-08-02T18:55:51Z" name="searchFlight" finished-at="2019-08-02T18:56:01Z" duration-ms="9831" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- driveSedanCar -->
-        <test-method signature="driveAccess125()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@17c1bced]" started-at="2019-08-02T16:49:59Z" name="driveAccess125" finished-at="2019-08-02T16:49:59Z" depends-on-methods="com.sidmukhe.maventest.PracticeDependentTestCase.driveScooty" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driveAccess125 -->
-        <test-method signature="driveActiva5G()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@17c1bced]" started-at="2019-08-02T16:49:59Z" name="driveActiva5G" finished-at="2019-08-02T16:49:59Z" depends-on-methods="com.sidmukhe.maventest.PracticeDependentTestCase.driveScooty" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driveActiva5G -->
-        <test-method signature="driveHondaAccord()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@17c1bced]" started-at="2019-08-02T16:49:59Z" name="driveHondaAccord" finished-at="2019-08-02T16:49:59Z" depends-on-methods="com.sidmukhe.maventest.PracticeDependentTestCase.driveSedanCar" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driveHondaAccord -->
-        <test-method signature="driveToyotaCorolla()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@17c1bced]" started-at="2019-08-02T16:49:59Z" name="driveToyotaCorolla" finished-at="2019-08-02T16:49:59Z" depends-on-methods="com.sidmukhe.maventest.PracticeDependentTestCase.driveSedanCar" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driveToyotaCorolla -->
-      </class> <!-- com.sidmukhe.maventest.PracticeDependentTestCase -->
+        </test-method> <!-- searchFlight -->
+      </class> <!-- pomSetup.SearchFlightPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
