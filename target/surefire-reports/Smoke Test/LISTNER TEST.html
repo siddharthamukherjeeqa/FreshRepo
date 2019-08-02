@@ -1,0 +1,425 @@
+<html>
+<head>
+<title>TestNG:  LISTNER TEST</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>LISTNER TEST</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>26/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 03 00:14:36 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>3 seconds (3077 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.sidmukhe.maventest.RetryAnalyzertest.checkRetryTest()'><b>checkRetryTest</b><br>Test class: com.sidmukhe.maventest.RetryAnalyzertest<br/>
+<a href="#Output-1539947037" onClick='toggleBox("Output-1539947037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1539947037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1539947037">
+afterInvocation : org.testng.internal.TestResult, checkRetryTest<br/>
+onTestSuccess : checkRetryTest<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.RetryAnalyzertest@57d5872c</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeDependentTestCase.driveAccess125()'><b>driveAccess125</b><br>Test class: com.sidmukhe.maventest.PracticeDependentTestCase<br/>
+<a href="#Output-1660325375" onClick='toggleBox("Output-1660325375", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1660325375" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1660325375">
+afterInvocation : org.testng.internal.TestResult, driveAccess125<br/>
+onTestSuccess : driveAccess125<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticetestngGroups.driveAccess125()'><b>driveAccess125</b><br>Test class: com.sidmukhe.maventest.PracticetestngGroups<br/>
+<a href="#Output-1799635803" onClick='toggleBox("Output-1799635803", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1799635803" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1799635803">
+afterInvocation : org.testng.internal.TestResult, driveAccess125<br/>
+onTestSuccess : driveAccess125<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticetestngGroups@2ea6137</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeTimeout.driveAccess125()'><b>driveAccess125</b><br>Test class: com.sidmukhe.maventest.PracticeTimeout<br/>
+<a href="#Output-94830685" onClick='toggleBox("Output-94830685", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-94830685" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-94830685">
+afterInvocation : org.testng.internal.TestResult, driveAccess125<br/>
+onTestSuccess : driveAccess125<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeTimeout@36f0f1be</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeDependentTestCase.driveActiva5G()'><b>driveActiva5G</b><br>Test class: com.sidmukhe.maventest.PracticeDependentTestCase<br/>
+<a href="#Output-251664534" onClick='toggleBox("Output-251664534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-251664534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-251664534">
+afterInvocation : org.testng.internal.TestResult, driveActiva5G<br/>
+onTestSuccess : driveActiva5G<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticetestngGroups.driveActiva5G()'><b>driveActiva5G</b><br>Test class: com.sidmukhe.maventest.PracticetestngGroups<br/>
+<a href="#Output-751608431" onClick='toggleBox("Output-751608431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-751608431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-751608431">
+afterInvocation : org.testng.internal.TestResult, driveActiva5G<br/>
+onTestSuccess : driveActiva5G<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticetestngGroups@2ea6137</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.ParallelTest.driveHondaAccord()'><b>driveHondaAccord</b><br>Test class: com.sidmukhe.maventest.ParallelTest<br/>
+<a href="#Output-1268974304" onClick='toggleBox("Output-1268974304", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1268974304" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1268974304">
+afterInvocation : org.testng.internal.TestResult, driveHondaAccord<br/>
+onTestSuccess : driveHondaAccord<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.ParallelTest@55040f2f</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.ParallelTest2.driveHondaAccord()'><b>driveHondaAccord</b><br>Test class: com.sidmukhe.maventest.ParallelTest2<br/>
+<a href="#Output-451312813" onClick='toggleBox("Output-451312813", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-451312813" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-451312813">
+afterInvocation : org.testng.internal.TestResult, driveHondaAccord<br/>
+onTestSuccess : driveHondaAccord<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.ParallelTest2@667a738</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeDependentTestCase.driveHondaAccord()'><b>driveHondaAccord</b><br>Test class: com.sidmukhe.maventest.PracticeDependentTestCase<br/>
+<a href="#Output-334593716" onClick='toggleBox("Output-334593716", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-334593716" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-334593716">
+afterInvocation : org.testng.internal.TestResult, driveHondaAccord<br/>
+onTestSuccess : driveHondaAccord<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticetestngGroups.driveHondaAccord()'><b>driveHondaAccord</b><br>Test class: com.sidmukhe.maventest.PracticetestngGroups<br/>
+<a href="#Output-1723290893" onClick='toggleBox("Output-1723290893", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1723290893" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1723290893">
+afterInvocation : org.testng.internal.TestResult, driveHondaAccord<br/>
+onTestSuccess : driveHondaAccord<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticetestngGroups@2ea6137</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeDependentTestCase.driveScooty()'><b>driveScooty</b><br>Test class: com.sidmukhe.maventest.PracticeDependentTestCase<br/>
+<a href="#Output-2081000371" onClick='toggleBox("Output-2081000371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2081000371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2081000371">
+afterInvocation : org.testng.internal.TestResult, driveScooty<br/>
+onTestSuccess : driveScooty<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeDependentTestCase.driveSedanCar()'><b>driveSedanCar</b><br>Test class: com.sidmukhe.maventest.PracticeDependentTestCase<br/>
+<a href="#Output-1985938863" onClick='toggleBox("Output-1985938863", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1985938863" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1985938863">
+afterInvocation : org.testng.internal.TestResult, driveSedanCar<br/>
+onTestSuccess : driveSedanCar<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.ParallelTest.driveToyotaCorolla()'><b>driveToyotaCorolla</b><br>Test class: com.sidmukhe.maventest.ParallelTest<br/>
+<a href="#Output-244872973" onClick='toggleBox("Output-244872973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-244872973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-244872973">
+afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla<br/>
+onTestSuccess : driveToyotaCorolla<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.sidmukhe.maventest.ParallelTest@55040f2f</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.ParallelTest2.driveToyotaCorolla()'><b>driveToyotaCorolla</b><br>Test class: com.sidmukhe.maventest.ParallelTest2<br/>
+<a href="#Output-795748540" onClick='toggleBox("Output-795748540", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-795748540" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-795748540">
+afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla<br/>
+onTestSuccess : driveToyotaCorolla<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.ParallelTest2@667a738</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeDependentTestCase.driveToyotaCorolla()'><b>driveToyotaCorolla</b><br>Test class: com.sidmukhe.maventest.PracticeDependentTestCase<br/>
+<a href="#Output-487416600" onClick='toggleBox("Output-487416600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-487416600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-487416600">
+afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla<br/>
+onTestSuccess : driveToyotaCorolla<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticetestngGroups.driveToyotaCorolla()'><b>driveToyotaCorolla</b><br>Test class: com.sidmukhe.maventest.PracticetestngGroups<br/>
+<a href="#Output-893640573" onClick='toggleBox("Output-893640573", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-893640573" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-893640573">
+afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla<br/>
+onTestSuccess : driveToyotaCorolla<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticetestngGroups@2ea6137</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeITestResult_Demo.firstOne()'><b>firstOne</b><br>Test class: com.sidmukhe.maventest.PracticeITestResult_Demo<br/>
+<a href="#Output-183155105" onClick='toggleBox("Output-183155105", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-183155105" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-183155105">
+afterInvocation : org.testng.internal.TestResult, firstOne<br/>
+onTestSuccess : firstOne<br/>
+beforeInvocation : org.testng.internal.TestResult, afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeITestResult_Demo@1e67a849</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.Practiceenabled.printStringmessage()'><b>printStringmessage</b><br>Test class: com.sidmukhe.maventest.Practiceenabled<br/>
+<a href="#Output-1528769018" onClick='toggleBox("Output-1528769018", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1528769018" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1528769018">
+afterInvocation : org.testng.internal.TestResult, printStringmessage<br/>
+onTestSuccess : printStringmessage<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.Practiceenabled@64c87930</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeITestResult_Demo.secondOne()'><b>secondOne</b><br>Test class: com.sidmukhe.maventest.PracticeITestResult_Demo<br/>
+<a href="#Output-1927963027" onClick='toggleBox("Output-1927963027", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1927963027" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1927963027">
+afterInvocation : org.testng.internal.TestResult, secondOne<br/>
+onTestSuccess : secondOne<br/>
+beforeInvocation : org.testng.internal.TestResult, afterMethod<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeITestResult_Demo@1e67a849</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticesoftAssert.sumofInt()'><b>sumofInt</b><br>Test class: com.sidmukhe.maventest.PracticesoftAssert<br/>
+<a href="#Output-1167088639" onClick='toggleBox("Output-1167088639", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1167088639" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1167088639">
+afterInvocation : org.testng.internal.TestResult, sumofInt<br/>
+onTestSuccess : sumofInt<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticesoftAssert@6ee12bac</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeTestNGListners.testMethodOne()'><b>testMethodOne</b><br>Test class: com.sidmukhe.maventest.PracticeTestNGListners<br/>
+<a href="#Output-893523498" onClick='toggleBox("Output-893523498", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-893523498" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-893523498">
+testMethodOne<br/>
+afterInvocation : org.testng.internal.TestResult, testMethodOne<br/>
+onTestSuccess : testMethodOne<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeTestNGListners@41ee392b</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeTestNGListners2.testMethodOne()'><b>testMethodOne</b><br>Test class: com.sidmukhe.maventest.PracticeTestNGListners2<br/>
+<a href="#Output-1108517064" onClick='toggleBox("Output-1108517064", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1108517064" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1108517064">
+testMethodOne<br/>
+afterInvocation : org.testng.internal.TestResult, testMethodOne<br/>
+onTestSuccess : testMethodOne<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeTestNGListners2@157632c9</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeTestNGListners3.testMethodOne()'><b>testMethodOne</b><br>Test class: com.sidmukhe.maventest.PracticeTestNGListners3<br/>
+<a href="#Output-992743048" onClick='toggleBox("Output-992743048", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-992743048" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-992743048">
+testMethodOne<br/>
+afterInvocation : org.testng.internal.TestResult, testMethodOne<br/>
+onTestSuccess : testMethodOne<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeTestNGListners3@4c40b76e</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeTestNGListners.testMethodTwo()'><b>testMethodTwo</b><br>Test class: com.sidmukhe.maventest.PracticeTestNGListners<br/>
+<a href="#Output-1770070706" onClick='toggleBox("Output-1770070706", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1770070706" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1770070706">
+testMethodOne<br/>
+afterInvocation : org.testng.internal.TestResult, testMethodTwo<br/>
+onTestSuccess : testMethodTwo<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeTestNGListners@41ee392b</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeTestNGListners2.testMethodTwo()'><b>testMethodTwo</b><br>Test class: com.sidmukhe.maventest.PracticeTestNGListners2<br/>
+<a href="#Output-511354923" onClick='toggleBox("Output-511354923", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-511354923" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-511354923">
+testMethodOne<br/>
+afterInvocation : org.testng.internal.TestResult, testMethodTwo<br/>
+onTestSuccess : testMethodTwo<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeTestNGListners2@157632c9</td></tr>
+<tr>
+<td title='com.sidmukhe.maventest.PracticeTestNGListners3.testMethodTwo()'><b>testMethodTwo</b><br>Test class: com.sidmukhe.maventest.PracticeTestNGListners3<br/>
+<a href="#Output-1540894701" onClick='toggleBox("Output-1540894701", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1540894701" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1540894701">
+testMethodOne<br/>
+afterInvocation : org.testng.internal.TestResult, testMethodTwo<br/>
+onTestSuccess : testMethodTwo<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.sidmukhe.maventest.PracticeTestNGListners3@4c40b76e</td></tr>
+</table><p>
+</body>
+</html>

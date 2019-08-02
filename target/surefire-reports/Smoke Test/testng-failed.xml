@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Test]" verbose="0">
+  <listeners>
+    <listener class-name="listnerPackage.AnnotationTransformer"/>
+  </listeners>
+  <test name="LISTNER TEST(failed)">
+    <classes>
+      <class name="pomSetup.SearchFlightPage">
+        <methods>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- pomSetup.SearchFlightPage -->
+      <class name="com.sidmukhe.maventest.PracticetestngGroups">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.sidmukhe.maventest.PracticetestngGroups -->
+      <class name="com.sidmukhe.maventest.Practiceenabled">
+        <methods>
+          <include name="printStringmessage"/>
+        </methods>
+      </class> <!-- com.sidmukhe.maventest.Practiceenabled -->
+      <class name="com.sidmukhe.maventest.SearchFlightPage">
+        <methods>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.sidmukhe.maventest.SearchFlightPage -->
+      <class name="com.sidmukhe.maventest.PracticeITestResult_Demo">
+        <methods>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.sidmukhe.maventest.PracticeITestResult_Demo -->
+    </classes>
+  </test> <!-- LISTNER TEST(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

@@ -1,21 +1,865 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="27" passed="27" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[onStart : before suite starts]]>
+    </line>
+    <line>
+      <![CDATA[onStart : POMSETUP TEST]]>
+    </line>
+    <line>
+      <![CDATA[searchFlight]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, intialize]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, intialize]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : searchFlight]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, searchFlight]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, searchFlight]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : searchFlight]]>
+    </line>
+    <line>
+      <![CDATA[onFinish : POMSETUP TEST]]>
+    </line>
+    <line>
+      <![CDATA[onStart : LISTNER TEST]]>
+    </line>
+    <line>
+      <![CDATA[driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[driveScooty]]>
+    </line>
+    <line>
+      <![CDATA[driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[driveSedanCar]]>
+    </line>
+    <line>
+      <![CDATA[driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[firstOne]]>
+    </line>
+    <line>
+      <![CDATA[secondOne]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[printStringmessage]]>
+    </line>
+    <line>
+      <![CDATA[sumofInt]]>
+    </line>
+    <line>
+      <![CDATA[driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[checkRetryTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveScooty]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveScooty]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveScooty]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveScooty]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveSedanCar]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveSedanCar]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveSedanCar]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveSedanCar]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : printStringmessage]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, printStringmessage]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, printStringmessage]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : printStringmessage]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : firstOne]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, firstOne]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, firstOne]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : firstOne]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : secondOne]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, secondOne]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, secondOne]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : secondOne]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, afterMethod]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : sumofInt]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, sumofInt]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, sumofInt]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : sumofInt]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, beforeClass]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveActiva5G]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveHondaAccord]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveToyotaCorolla]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, afterClass]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, afterClass]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[testMethodOne]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : testMethodTwo]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : driveAccess125]]>
+    </line>
+    <line>
+      <![CDATA[onTestStart : checkRetryTest]]>
+    </line>
+    <line>
+      <![CDATA[beforeInvocation : org.testng.internal.TestResult, checkRetryTest]]>
+    </line>
+    <line>
+      <![CDATA[afterInvocation : org.testng.internal.TestResult, checkRetryTest]]>
+    </line>
+    <line>
+      <![CDATA[onTestSuccess : checkRetryTest]]>
+    </line>
+    <line>
+      <![CDATA[onFinish : LISTNER TEST]]>
+    </line>
+    <line>
+      <![CDATA[onFinish : after suite completes]]>
+    </line>
   </reporter-output>
-  <suite started-at="2019-07-31T05:55:32Z" name="SomeTests" finished-at="2019-07-31T05:56:28Z" duration-ms="56573">
+  <suite started-at="2019-08-02T18:43:41Z" name="Smoke Test" finished-at="2019-08-02T18:44:40Z" duration-ms="58842">
     <groups>
+      <group name="scooty">
+        <method signature="PracticetestngGroups.driveAccess125()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" name="driveAccess125" class="com.sidmukhe.maventest.PracticetestngGroups"/>
+        <method signature="PracticetestngGroups.driveActiva5G()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" name="driveActiva5G" class="com.sidmukhe.maventest.PracticetestngGroups"/>
+      </group> <!-- scooty -->
+      <group name="cars">
+        <method signature="PracticetestngGroups.driveHondaAccord()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" name="driveHondaAccord" class="com.sidmukhe.maventest.PracticetestngGroups"/>
+        <method signature="PracticetestngGroups.driveToyotaCorolla()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" name="driveToyotaCorolla" class="com.sidmukhe.maventest.PracticetestngGroups"/>
+      </group> <!-- cars -->
+      <group name="sedan">
+        <method signature="PracticetestngGroups.driveHondaAccord()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" name="driveHondaAccord" class="com.sidmukhe.maventest.PracticetestngGroups"/>
+        <method signature="PracticetestngGroups.driveToyotaCorolla()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" name="driveToyotaCorolla" class="com.sidmukhe.maventest.PracticetestngGroups"/>
+      </group> <!-- sedan -->
     </groups>
-    <test started-at="2019-07-31T05:55:32Z" name="Smoke Test" finished-at="2019-07-31T05:56:28Z" duration-ms="56573">
+    <test started-at="2019-08-02T18:43:41Z" name="POMSETUP TEST" finished-at="2019-08-02T18:44:36Z" duration-ms="55704">
       <class name="pomSetup.SearchFlightPage">
-        <test-method is-config="true" signature="intialize()[pri:0, instance:pomSetup.SearchFlightPage@3e77a1ed]" started-at="2019-07-31T11:25:32Z" name="intialize" finished-at="2019-07-31T11:26:15Z" duration-ms="42667" status="PASS">
+        <test-method is-config="true" signature="intialize()[pri:0, instance:pomSetup.SearchFlightPage@3ffcd140]" started-at="2019-08-03T00:13:41Z" name="intialize" finished-at="2019-08-03T00:14:26Z" duration-ms="45793" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, intialize]]>
+            </line>
           </reporter-output>
         </test-method> <!-- intialize -->
-        <test-method signature="searchFlight()[pri:0, instance:pomSetup.SearchFlightPage@3e77a1ed]" started-at="2019-07-31T11:26:15Z" name="searchFlight" finished-at="2019-07-31T11:26:28Z" duration-ms="13894" status="PASS">
+        <test-method signature="searchFlight()[pri:0, instance:pomSetup.SearchFlightPage@3ffcd140]" started-at="2019-08-03T00:14:26Z" name="searchFlight" finished-at="2019-08-03T00:14:36Z" duration-ms="9897" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, searchFlight]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : searchFlight]]>
+            </line>
           </reporter-output>
         </test-method> <!-- searchFlight -->
       </class> <!-- pomSetup.SearchFlightPage -->
-    </test> <!-- Smoke Test -->
-  </suite> <!-- SomeTests -->
+    </test> <!-- POMSETUP TEST -->
+    <test started-at="2019-08-02T18:44:36Z" name="LISTNER TEST" finished-at="2019-08-02T18:44:40Z" duration-ms="3077">
+      <class name="com.sidmukhe.maventest.PracticeTestNGListners">
+        <test-method signature="testMethodOne()[pri:0, instance:com.sidmukhe.maventest.PracticeTestNGListners@41ee392b]" started-at="2019-08-03T00:14:39Z" name="testMethodOne" finished-at="2019-08-03T00:14:39Z" duration-ms="4" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : testMethodOne]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method signature="testMethodTwo()[pri:0, instance:com.sidmukhe.maventest.PracticeTestNGListners@41ee392b]" started-at="2019-08-03T00:14:39Z" name="testMethodTwo" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : testMethodTwo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+      </class> <!-- com.sidmukhe.maventest.PracticeTestNGListners -->
+      <class name="com.sidmukhe.maventest.PracticetestngGroups">
+        <test-method signature="driveAccess125()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" started-at="2019-08-03T00:14:39Z" name="driveAccess125" finished-at="2019-08-03T00:14:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveAccess125]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveAccess125]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveAccess125 -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" started-at="2019-08-03T00:14:39Z" name="beforeClass" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, beforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="driveActiva5G()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" started-at="2019-08-03T00:14:39Z" name="driveActiva5G" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveActiva5G]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveActiva5G]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveActiva5G -->
+        <test-method signature="driveHondaAccord()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" started-at="2019-08-03T00:14:39Z" name="driveHondaAccord" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveHondaAccord]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveHondaAccord -->
+        <test-method signature="driveToyotaCorolla()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" started-at="2019-08-03T00:14:39Z" name="driveToyotaCorolla" finished-at="2019-08-03T00:14:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveToyotaCorolla]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveToyotaCorolla -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.sidmukhe.maventest.PracticetestngGroups@2ea6137]" started-at="2019-08-03T00:14:39Z" name="afterClass" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, afterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.sidmukhe.maventest.PracticetestngGroups -->
+      <class name="com.sidmukhe.maventest.ParallelTest">
+        <test-method signature="driveHondaAccord()[pri:0, instance:com.sidmukhe.maventest.ParallelTest@55040f2f]" started-at="2019-08-03T00:14:36Z" name="driveHondaAccord" finished-at="2019-08-03T00:14:36Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveHondaAccord]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveHondaAccord -->
+        <test-method signature="driveToyotaCorolla()[pri:0, instance:com.sidmukhe.maventest.ParallelTest@55040f2f]" started-at="2019-08-03T00:14:36Z" name="driveToyotaCorolla" finished-at="2019-08-03T00:14:39Z" duration-ms="3001" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveToyotaCorolla]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveToyotaCorolla -->
+      </class> <!-- com.sidmukhe.maventest.ParallelTest -->
+      <class name="com.sidmukhe.maventest.PracticeTimeout">
+        <test-method signature="driveAccess125()[pri:0, instance:com.sidmukhe.maventest.PracticeTimeout@36f0f1be]" started-at="2019-08-03T00:14:39Z" name="driveAccess125" finished-at="2019-08-03T00:14:40Z" duration-ms="18" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveAccess125]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveAccess125]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveAccess125 -->
+      </class> <!-- com.sidmukhe.maventest.PracticeTimeout -->
+      <class name="com.sidmukhe.maventest.RetryAnalyzertest">
+        <test-method signature="checkRetryTest()[pri:0, instance:com.sidmukhe.maventest.RetryAnalyzertest@57d5872c]" started-at="2019-08-03T00:14:40Z" name="checkRetryTest" finished-at="2019-08-03T00:14:40Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, checkRetryTest]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : checkRetryTest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkRetryTest -->
+      </class> <!-- com.sidmukhe.maventest.RetryAnalyzertest -->
+      <class name="com.sidmukhe.maventest.PracticeTestNGListners2">
+        <test-method signature="testMethodOne()[pri:0, instance:com.sidmukhe.maventest.PracticeTestNGListners2@157632c9]" started-at="2019-08-03T00:14:39Z" name="testMethodOne" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : testMethodOne]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method signature="testMethodTwo()[pri:0, instance:com.sidmukhe.maventest.PracticeTestNGListners2@157632c9]" started-at="2019-08-03T00:14:39Z" name="testMethodTwo" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : testMethodTwo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+      </class> <!-- com.sidmukhe.maventest.PracticeTestNGListners2 -->
+      <class name="com.sidmukhe.maventest.PracticeTestNGListners3">
+        <test-method signature="testMethodOne()[pri:0, instance:com.sidmukhe.maventest.PracticeTestNGListners3@4c40b76e]" started-at="2019-08-03T00:14:39Z" name="testMethodOne" finished-at="2019-08-03T00:14:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : testMethodOne]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethodOne -->
+        <test-method signature="testMethodTwo()[pri:0, instance:com.sidmukhe.maventest.PracticeTestNGListners3@4c40b76e]" started-at="2019-08-03T00:14:39Z" name="testMethodTwo" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[testMethodOne]]>
+            </line>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, testMethodTwo]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : testMethodTwo]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMethodTwo -->
+      </class> <!-- com.sidmukhe.maventest.PracticeTestNGListners3 -->
+      <class name="com.sidmukhe.maventest.Practiceenabled">
+        <test-method signature="printStringmessage()[pri:0, instance:com.sidmukhe.maventest.Practiceenabled@64c87930]" started-at="2019-08-03T00:14:39Z" name="printStringmessage" finished-at="2019-08-03T00:14:39Z" duration-ms="8" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, printStringmessage]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : printStringmessage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printStringmessage -->
+      </class> <!-- com.sidmukhe.maventest.Practiceenabled -->
+      <class name="com.sidmukhe.maventest.PracticesoftAssert">
+        <test-method signature="sumofInt()[pri:0, instance:com.sidmukhe.maventest.PracticesoftAssert@6ee12bac]" started-at="2019-08-03T00:14:39Z" name="sumofInt" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, sumofInt]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : sumofInt]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sumofInt -->
+      </class> <!-- com.sidmukhe.maventest.PracticesoftAssert -->
+      <class name="com.sidmukhe.maventest.PracticeDependentTestCase">
+        <test-method signature="driveScooty()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00]" started-at="2019-08-03T00:14:39Z" name="driveScooty" finished-at="2019-08-03T00:14:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveScooty]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveScooty]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveScooty -->
+        <test-method signature="driveSedanCar()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00]" started-at="2019-08-03T00:14:39Z" name="driveSedanCar" finished-at="2019-08-03T00:14:39Z" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveSedanCar]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveSedanCar]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveSedanCar -->
+        <test-method signature="driveAccess125()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00]" started-at="2019-08-03T00:14:39Z" name="driveAccess125" finished-at="2019-08-03T00:14:39Z" depends-on-methods="com.sidmukhe.maventest.PracticeDependentTestCase.driveScooty" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveAccess125]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveAccess125]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveAccess125 -->
+        <test-method signature="driveActiva5G()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00]" started-at="2019-08-03T00:14:39Z" name="driveActiva5G" finished-at="2019-08-03T00:14:39Z" depends-on-methods="com.sidmukhe.maventest.PracticeDependentTestCase.driveScooty" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveActiva5G]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveActiva5G]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveActiva5G -->
+        <test-method signature="driveHondaAccord()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00]" started-at="2019-08-03T00:14:39Z" name="driveHondaAccord" finished-at="2019-08-03T00:14:39Z" depends-on-methods="com.sidmukhe.maventest.PracticeDependentTestCase.driveSedanCar" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveHondaAccord]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveHondaAccord -->
+        <test-method signature="driveToyotaCorolla()[pri:0, instance:com.sidmukhe.maventest.PracticeDependentTestCase@2d2e5f00]" started-at="2019-08-03T00:14:39Z" name="driveToyotaCorolla" finished-at="2019-08-03T00:14:39Z" depends-on-methods="com.sidmukhe.maventest.PracticeDependentTestCase.driveSedanCar" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveToyotaCorolla]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveToyotaCorolla -->
+      </class> <!-- com.sidmukhe.maventest.PracticeDependentTestCase -->
+      <class name="com.sidmukhe.maventest.ParallelTest2">
+        <test-method signature="driveHondaAccord()[pri:0, instance:com.sidmukhe.maventest.ParallelTest2@667a738]" started-at="2019-08-03T00:14:39Z" name="driveHondaAccord" finished-at="2019-08-03T00:14:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveHondaAccord]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveHondaAccord]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveHondaAccord -->
+        <test-method signature="driveToyotaCorolla()[pri:0, instance:com.sidmukhe.maventest.ParallelTest2@667a738]" started-at="2019-08-03T00:14:39Z" name="driveToyotaCorolla" finished-at="2019-08-03T00:14:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, driveToyotaCorolla]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : driveToyotaCorolla]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- driveToyotaCorolla -->
+      </class> <!-- com.sidmukhe.maventest.ParallelTest2 -->
+      <class name="com.sidmukhe.maventest.PracticeITestResult_Demo">
+        <test-method signature="firstOne()[pri:0, instance:com.sidmukhe.maventest.PracticeITestResult_Demo@1e67a849]" started-at="2019-08-03T00:14:39Z" name="firstOne" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, firstOne]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : firstOne]]>
+            </line>
+            <line>
+              <![CDATA[beforeInvocation : org.testng.internal.TestResult, afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- firstOne -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sidmukhe.maventest.PracticeITestResult_Demo@1e67a849]" started-at="2019-08-03T00:14:39Z" name="afterMethod" finished-at="2019-08-03T00:14:39Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstOne status=SUCCESS method=PracticeITestResult_Demo.firstOne()[pri:0, instance:com.sidmukhe.maventest.PracticeITestResult_Demo@1e67a849] output=afterInvocation : org.testng.internal.TestResult, firstOne]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="secondOne()[pri:0, instance:com.sidmukhe.maventest.PracticeITestResult_Demo@1e67a849]" started-at="2019-08-03T00:14:39Z" name="secondOne" finished-at="2019-08-03T00:14:39Z" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, secondOne]]>
+            </line>
+            <line>
+              <![CDATA[onTestSuccess : secondOne]]>
+            </line>
+            <line>
+              <![CDATA[beforeInvocation : org.testng.internal.TestResult, afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- secondOne -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sidmukhe.maventest.PracticeITestResult_Demo@1e67a849]" started-at="2019-08-03T00:14:39Z" name="afterMethod" finished-at="2019-08-03T00:14:39Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondOne status=SUCCESS method=PracticeITestResult_Demo.secondOne()[pri:0, instance:com.sidmukhe.maventest.PracticeITestResult_Demo@1e67a849] output=afterInvocation : org.testng.internal.TestResult, secondOne]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[afterInvocation : org.testng.internal.TestResult, afterMethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.sidmukhe.maventest.PracticeITestResult_Demo -->
+    </test> <!-- LISTNER TEST -->
+  </suite> <!-- Smoke Test -->
 </testng-results>

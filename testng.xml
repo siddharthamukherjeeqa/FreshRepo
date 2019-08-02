@@ -1,11 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="SomeTests">
+<suite name="Smoke Test">
 	<listeners>
         <listener class-name="listnerPackage.AnnotationTransformer"/>
+        <listener class-name="listnerPackage.CustomizedCustomListener"/>
     </listeners>
-    <test name="Smoke Test">
+    <test name="POMSETUP TEST">
 		<packages>
 			<package name ="pomSetup"/>
+		</packages>
+	</test>
+	<test name="LISTNER TEST">
+		<packages>
+			<package name ="com.sidmukhe.maventest"/>
 		</packages>
 	</test>
 </suite>

@@ -26,8 +26,8 @@ public class SearchFlightPage {
 		etSearch.clickFlightsTab();
 		etSearch.enterOriginDetails("Hyderabad");
 		etSearch.enterdestinationDetails("New York");
-		etSearch.enterStartDate("08/01/2019");
-		etSearch.enterEndDate("08/01/2019");
+		etSearch.enterStartDate("01/01/2020");
+		etSearch.enterEndDate("01/01/2020");
 		etSearch.searchFlight();
 	}
 }
