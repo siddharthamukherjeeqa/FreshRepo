@@ -46,7 +46,8 @@ public class ExpediaTravelSearch {
 		hotelTab.click();
 	}
 	
-	public void searchFlight(){
+	public void searchFlight() throws InterruptedException{
+		Thread.sleep(10000);
 		reliableFindElement(search);
 		search.click();
 	}

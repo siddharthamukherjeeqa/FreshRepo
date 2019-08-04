@@ -1,5 +1,6 @@
 package pomSetup;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -25,7 +26,7 @@ public class SearchFlightPage {
 		etSearch = new ExpediaTravelSearch(driver);
 	}
 	@Test(dataProvider = "getData")
-	public void searchFlight(String origin, String destination, String sDate, String eDate) {
+	public void searchFlight(String origin, String destination, String sDate, String eDate) throws InterruptedException {
 		etSearch.clickFlightsTab();
 		etSearch.enterOriginDetails(origin);
 		etSearch.enterdestinationDetails(destination);
@@ -46,5 +47,13 @@ public class SearchFlightPage {
 	@AfterClass
 	public void closing() {
 		driver.quit();
+		
+		boolean isDebug = java.lang.management.ManagementFactory.getRuntimeMXBean().getInputArguments().toString().indexOf("-agentlib:jdwp") > 0;
+		try {
+		    if (isDebug)
+		        Runtime.getRuntime().exec("taskkill /F /IM geckodriver.exe");
+		} catch (IOException e) {
+		    e.printStackTrace();
+		}
 	}
 }
