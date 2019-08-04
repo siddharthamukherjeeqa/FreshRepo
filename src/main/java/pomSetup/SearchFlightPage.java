@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -40,5 +41,10 @@ public class SearchFlightPage {
 		data[0][2] = "01/01/2020";
 		data[0][3] = "01/01/2020";
 		return data;
+	}
+	
+	@AfterClass
+	public void closing() {
+		driver.quit();
 	}
 }
